@@ -7,46 +7,40 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="screen.css">
   </head>
-  <header>
   <body>
-    <h1>Contact Page</h1>
+    <header>
+      <h1>Contact Page</h1>
+    </header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
-    </header>
-      <body>
-        <h1>Contact Us!</h1>
-        <form>
-          
-          <label>Name:</label>
-          <input type="text" name="name" required><br><br>
-  
-         
-          <label>Email:</label>
-          <input type="email" name="email" required><br><br>
-  
-        
-          <label>Reason for contact:</label>
-          <select name="reason" required>
-              <option value="">Choose one</option>
-              <option value="hi">Saying Hi</option>
 
-              <option value="contractor">Looking for a Contractor</option>
-              <option value="interview">Interested in an Interview</option>
-          </select><br><br>
-  
-     
-          <label>Comment:</label><br>
-          <textarea name="comment" rows="4" cols="50"></textarea><br><br>
-          <input type="submit" value="'submit">
-        </form>
-      </body>
-    </nav>
+    <h1>Contact Us!</h1>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" required><br><br>
+
+      <label>Email:</label>
+      <input type="email" name="email" required><br><br>
+
+      <label>Reason for contact:</label>
+      <select name="reason" required>
+        <option value="">Choose one</option>
+        <option value="hi">Saying Hi</option>
+        <option value="contractor">Looking for a Contractor</option>
+        <option value="interview">Interested in an Interview</option>
+      </select><br><br>
+
+      <label>Comment:</label><br>
+      <textarea name="comment" rows="4" cols="50"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
     <script src="index.js"></script>
   </body>
 </html>
